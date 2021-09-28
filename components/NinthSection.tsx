@@ -12,6 +12,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import RemoveIcon from '@mui/icons-material/Remove';
 import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 const useStyles = makeStyles({
     buttonRoot: {
@@ -68,9 +69,9 @@ const NinthSection = () => {
                                     <TableCell component="th" scope="row">
                                         {row.name}
                                     </TableCell>
-                                    <TableCell align="center"><Checkbox disableRipple color="secondary" checked={row.standard} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></TableCell>
-                                    <TableCell align="center"><Checkbox disableRipple color="secondary" checked={row.professional} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></TableCell>
-                                    <TableCell align="center"><Checkbox disableRipple color="secondary" checked={row.enterpise} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></TableCell>
+                                    <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.standard} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                                    <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.professional} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                                    <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.enterprise} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
                                 </TableRow>
                         ))}
                         <TableRow
@@ -105,8 +106,8 @@ const NinthSection = () => {
 
 export default NinthSection;
 
-const createData = (name: string, standard: boolean, professional: boolean, enterpise: boolean) => {
-    return { name, standard, professional, enterpise };
+const createData = (name: string, standard: boolean, professional: boolean, enterprise: boolean) => {
+    return { name, standard, professional, enterprise };
 }
 
 const rows = [
