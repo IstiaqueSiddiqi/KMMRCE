@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="736" height="659.123" viewBox="0 0 736 659.123">
+  <defs>
+    <filter id="Rectangle_2456" x="286.5" y="374.123" width="417" height="220" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2428" x="33.5" y="374.123" width="328" height="285" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2429" x="165.5" y="204.555" width="405" height="245" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-3"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5133" data-name="Group 5133" transform="translate(-132 -7403.945)">
+    <g id="Group_5137" data-name="Group 5137" transform="translate(12892 -5245)">
+      <g transform="matrix(1, 0, 0, 1, -12760, 12648.95)" filter="url(#Rectangle_2456)">
+        <rect id="Rectangle_2456-2" data-name="Rectangle 2456" width="312" height="115" rx="10" transform="translate(339 423.62)" fill="#fff"/>
+      </g>
+      <circle id="Ellipse_838" data-name="Ellipse 838" cx="37.5" cy="37.5" r="37.5" transform="translate(-12401 13092.568)" fill="#4b42ad"/>
+      <g id="Group_5136" data-name="Group 5136" transform="translate(-13418 4228.568)">
+        <text id="Lets_make_things_A_little_bit_tighter" data-name="Lets make things 
+A little bit tighter" transform="translate(1112 8911)" fill="#333" font-size="18" font-family="Helvetica" letter-spacing="-0.019em"><tspan x="0" y="0">Lets make things </tspan><tspan x="0" y="24">A little bit tighter</tspan></text>
+        <text id="Mark" transform="translate(1112 8884)" fill="#4b42ad" font-size="18" font-family="Helvetica" letter-spacing="-0.019em"><tspan x="0" y="0">Mark</tspan></text>
+      </g>
+      <text id="M" transform="translate(-12376 13109.568)" fill="#fff" font-size="30" font-family="Helvetica" letter-spacing="-0.019em"><tspan x="0" y="23">M</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, -12760, 12648.95)" filter="url(#Path_2428)">
+        <path id="Path_2428-2" data-name="Path 2428" d="M10,0H213a10,10,0,0,1,10,10V170a10,10,0,0,1-10,10H10A10,10,0,0,1,0,170V10A10,10,0,0,1,10,0Z" transform="translate(86 423.62)" fill="#fff"/>
+      </g>
+      <text id="Projects" transform="translate(-12649 13107.568)" fill="#333" font-size="22" font-family="Helvetica" letter-spacing="-0.019em"><tspan x="0" y="0">Projects</tspan></text>
+      <text id="Since_Last_Month_" data-name="Since Last Month " transform="translate(-12649 13227.568)" fill="#acacac" font-size="14" font-family="Helvetica" letter-spacing="-0.019em"><tspan x="0" y="0">Since Last Month </tspan></text>
+      <text id="_5.25_" data-name="5.25%" transform="translate(-12649 13207.568)" fill="#333" font-size="14" font-family="Helvetica" letter-spacing="-0.019em"><tspan x="0" y="0">5.25%</tspan></text>
+      <text id="_80" data-name="80" transform="translate(-12649 13130.568)" fill="#3cd17f" font-size="35" font-family="Helvetica" letter-spacing="-0.019em"><tspan x="0" y="27">80</tspan></text>
+    </g>
+    <g id="Group_5139" data-name="Group 5139" transform="translate(12806 -5179)">
+      <g id="Group_5138" data-name="Group 5138" transform="translate(-12674 12616.568)">
+        <text id="Duis_aute_irure_dolor_in_reprehenderit_in_voluptate_velit_esse_cillum_dolore_eu_fugiat_nulla_pariatur." data-name="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+dolore eu fugiat nulla pariatur." transform="translate(0 25)" fill="#333" font-size="25" font-family="Helvetica" letter-spacing="-0.012em"><tspan x="0" y="0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</tspan><tspan x="0" y="33">dolore eu fugiat nulla pariatur.</tspan></text>
+      </g>
+      <line id="Line_989" data-name="Line 989" x2="734.5" transform="translate(-12672.5 12583.445)" fill="none" stroke="#eee" stroke-width="1"/>
+      <text id="Sed_magna_enim_Bibendum_a_quam_eu" data-name="Sed magna enim
+Bibendum a quam eu" transform="translate(-12634 12733.758)" fill="#333" font-size="25" font-family="Helvetica" letter-spacing="-0.012em"><tspan x="0" y="0">Sed magna enim</tspan><tspan x="0" y="43">Bibendum a quam eu</tspan></text>
+      <circle id="Ellipse_839" data-name="Ellipse 839" cx="10" cy="10" r="10" transform="translate(-12674 12714.568)" fill="#3cd17f"/>
+      <path id="iconmonstr-check-mark-1" d="M10.143,2,4.5,7.784,1.857,5.278,0,7.136,4.5,11.5,12,3.858Z" transform="translate(-12670 12717.869)" fill="#fff"/>
+      <circle id="Ellipse_840" data-name="Ellipse 840" cx="10" cy="10" r="10" transform="translate(-12674 12757.568)" fill="#3cd17f"/>
+      <path id="iconmonstr-check-mark-1-2" data-name="iconmonstr-check-mark-1" d="M10.143,2,4.5,7.784,1.857,5.278,0,7.136,4.5,11.5,12,3.858Z" transform="translate(-12670 12760.869)" fill="#fff"/>
+    </g>
+    <g id="Group_5140" data-name="Group 5140" transform="translate(-1115 6387)">
+      <g transform="matrix(1, 0, 0, 1, 1247, 1016.95)" filter="url(#Path_2429)">
+        <path id="Path_2429-2" data-name="Path 2429" d="M10,0H290a10,10,0,0,1,10,10V130a10,10,0,0,1-10,10H10A10,10,0,0,1,0,130V10A10,10,0,0,1,10,0Z" transform="translate(218 254.05)" fill="#fff"/>
+      </g>
+      <text id="Notification" transform="translate(1509 1306)" fill="#333" font-size="22" font-family="Helvetica" letter-spacing="-0.019em"><tspan x="0" y="0">Notification</tspan></text>
+      <text id="You_have_5_new_design_requests_From_merchants." data-name="You have 5 new design requests 
+From merchants." transform="translate(1490 1363)" fill="#333" font-size="18" font-family="Helvetica" letter-spacing="-0.019em"><tspan x="0" y="0">You have 5 new design requests </tspan><tspan x="0" y="23">From merchants.</tspan></text>
+      <text id="Now" transform="translate(1704 1286)" fill="#acacac" font-size="18" font-family="Helvetica" letter-spacing="-0.019em" opacity="0.6"><tspan x="0" y="14">Now</tspan></text>
+      <path id="Path_2430" data-name="Path 2430" d="M19468-6285.062h300" transform="translate(-18003 7611)" fill="none" stroke="#dedede" stroke-width="1"/>
+      <circle id="Ellipse_841" data-name="Ellipse 841" cx="4.5" cy="4.5" r="4.5" transform="translate(1490 1294)" fill="#3cd17f"/>
+    </g>
+  </g>
+</svg>
