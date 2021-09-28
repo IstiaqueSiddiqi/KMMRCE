@@ -62,17 +62,17 @@ const NinthSection = () => {
                     </TableHead>
                     <TableBody>
                         {rows.map((row) => (
-                                <TableRow
-                                    key={row.name}
-                                    sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                                >
-                                    <TableCell component="th" scope="row">
-                                        {row.name}
-                                    </TableCell>
-                                    <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.standard} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
-                                    <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.professional} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
-                                    <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.enterprise} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
-                                </TableRow>
+                            <TableRow
+                                key={row.name}
+                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                            >
+                                <TableCell component="th" scope="row">
+                                    {row.name}
+                                </TableCell>
+                                <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.standard} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                                <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.professional} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                                <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.enterprise} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                            </TableRow>
                         ))}
                         <TableRow
                             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}

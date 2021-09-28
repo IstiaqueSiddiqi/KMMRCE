@@ -29,21 +29,20 @@ const useStyles = makeStyles({
 
 const Header = () => {
     const classes = useStyles();
-
     return (
-
         <HideOnScroll>
-            <AppBar position="sticky" classes={{ root: classes.header }}>
-                <Toolbar variant="dense">
-                    <Typography variant="h6" color="inherit" component="div" classes={{ root: classes.logo }} sx={{ flexGrow: 1 }}>
+            <AppBar position="static" classes={{ root: classes.header }}>
+                <Toolbar>
+                    <Typography variant="h6" color="inherit" component="div" classes={{ root: classes.logo }}>
                         KMMRCE
                     </Typography>
-                    <Box sx={{ flexGrow: 1 }}><NavBar /></Box>
+                    <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center' }}>
+                        <NavBar />
+                    </Box>
                     <Button variant="contained" color="secondary" disableElevation classes={{ root: classes.buttonRoot }}>Request Demo</Button>
                 </Toolbar>
             </AppBar>
         </HideOnScroll>
-
     );
 }
 
