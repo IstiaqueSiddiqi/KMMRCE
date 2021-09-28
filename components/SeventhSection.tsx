@@ -37,8 +37,8 @@ const SeventhSection = () => {
                         </Box>
                         <List dense>
                             {
-                                ['Sed magna enim', 'Sed magna enim', 'Sed magna enim'].map(item => (
-                                    <ListItem key={`${item}`} dense disablePadding>
+                                ['Sed magna enim', 'Sed magna enim', 'Sed magna enim'].map((item, index) => (
+                                    <ListItem key={`${item}${index}`} dense disablePadding>
                                         {/* <ListItemText primary={item} /> */}
                                         <FormGroup>
                                             <FormControlLabel control={<Checkbox color="secondary" checked checkedIcon={<CheckCircleIcon />} />} label={item} />
