@@ -4,6 +4,8 @@ import appTheme from '../styles/theme';
 import Head from 'next/head';
 import { CacheProvider, EmotionCache } from '@emotion/react';
 import createEmotionCache from '../styles/createEmotionCache';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
@@ -22,7 +24,9 @@ function MyApp({ Component, pageProps, emotionCache = clientSideEmotionCache }: 
       </Head>
       <ThemeProvider theme={appTheme}>
         <CssBaseline />
+        <Header />
         <Component {...pageProps} />
+        <Footer />
       </ThemeProvider>
     </CacheProvider>
   )

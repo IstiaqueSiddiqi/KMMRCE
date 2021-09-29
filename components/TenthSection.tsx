@@ -17,9 +17,9 @@ const TenthSection = () => {
         <>
             <Box component="section" display="flex" flexDirection="column" justifyContent="center" alignItems="center" p={16}>
                 <Box component="h3" fontSize="40px" fontWeight={400} lineHeight="40px">
-                    Ready to grow your business?
+                    <Jello>Ready to grow your business?</Jello>
                 </Box>
-                <Jello><Button endIcon={<ArrowForwardIosIcon />} variant="contained" color="secondary" disableElevation classes={{ root: classes.buttonRoot }}>Request Demo</Button></Jello>
+                <Button endIcon={<ArrowForwardIosIcon />} variant="contained" color="secondary" disableElevation classes={{ root: classes.buttonRoot }}>Request Demo</Button>
             </Box>
         </>
     )

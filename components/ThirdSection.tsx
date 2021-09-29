@@ -10,7 +10,7 @@ const ThirdSection = () => {
         <>
             <Grid container component="section" height="100vh">
                 <Grid item xs={6}>
-                    <Box p={4}>
+                    <Box p={4} height="100%">
                         <Flip right>
                             <Image src="/sec3-img1.svg" width="460" height="500" alt="speaker" />
                         </Flip>
