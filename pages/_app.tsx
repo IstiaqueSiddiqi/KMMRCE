@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps, emotionCache = clientSideEmotionCache }: 
       <ThemeProvider theme={appTheme}>
         <CssBaseline />
         <Header />
-        <Component {...pageProps} />
+        <main><Component {...pageProps} /></main>
         <Footer />
       </ThemeProvider>
     </CacheProvider>
