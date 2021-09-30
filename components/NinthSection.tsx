@@ -39,20 +39,20 @@ const NinthSection = () => {
                 <Table size="small" aria-label="simple table">
                     <TableHead>
                         <TableRow>
-                            <TableCell padding="none">Core Features</TableCell>
-                            <TableCell padding="none" align="center">
+                            <TableCell>Core Features</TableCell>
+                            <TableCell align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Image src="/sec9-img1.svg" width="50" height="50" alt="" layout="intrinsic" />
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
                                 </Box>
                             </TableCell>
-                            <TableCell padding="none" align="center">
+                            <TableCell align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Image src="/sec9-img2.svg" width="50" height="50" alt="" layout="intrinsic" />
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
                                 </Box>
                             </TableCell>
-                            <TableCell padding="none" align="center">
+                            <TableCell align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Image src="/sec9-img3.svg" width="50" height="50" alt="" layout="intrinsic" />
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
@@ -66,31 +66,31 @@ const NinthSection = () => {
                                 key={`${row.name}${index}`}
                                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                             >
-                                <TableCell padding="none" component="th" scope="row">
+                                <TableCell component="th" scope="row">
                                     {row.name}
                                 </TableCell>
-                                <TableCell padding="none" align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.standard} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
-                                <TableCell padding="none" align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.professional} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
-                                <TableCell padding="none" align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.enterprise} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                                <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.standard} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                                <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.professional} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                                <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.enterprise} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
                             </TableRow>
                         ))}
                         <TableRow
                             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                         >
                             <TableCell />
-                            <TableCell padding="none" align="center">
+                            <TableCell align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Box component="p" m={0} fontSize="22px" fontWeight={400} lineHeight="35px">$100/month</Box>
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
                                 </Box>
                             </TableCell>
-                            <TableCell padding="none" align="center">
+                            <TableCell align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Box component="p" m={0} fontSize="22px" fontWeight={400} lineHeight="35px">$2000/month</Box>
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
                                 </Box>
                             </TableCell>
-                            <TableCell padding="none" align="center">
+                            <TableCell align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Box component="p" m={0} fontSize="22px" fontWeight={400} lineHeight="35px">$500/month</Box>
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
