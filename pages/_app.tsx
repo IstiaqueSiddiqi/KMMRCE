@@ -21,6 +21,7 @@ function MyApp({ Component, pageProps, emotionCache = clientSideEmotionCache }: 
       <Head>
         <title>KMMRCE</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <link rel="icon" href="/footer.svg" />
       </Head>
       <ThemeProvider theme={appTheme}>
         <CssBaseline />

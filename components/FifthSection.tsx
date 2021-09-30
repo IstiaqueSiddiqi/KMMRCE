@@ -17,9 +17,9 @@ const FifthSection = () => {
     const classes = useStyles();
     return (
         <>
-            <Grid container component="section" height="100vh">
-                <Grid item xs={6}>
-                    <Box display="flex" flexDirection="column" justifyContent="flex-end" alignItems="flex-start" p={16} height="100%">
+            <Grid container component="section" height="100%" columnSpacing={{ xs: 1, md: 2 }}>
+                <Grid item xs={12} md={6}>
+                    <Box display="flex" flexDirection="column" justifyContent="flex-end" alignItems="flex-start" p={4}>
                         <Box component="p" m={0}>Case Study</Box>
                         <Box component="h3" fontSize="40px" fontWeight={400} lineHeight="40px">
                             Created with KMMRCE: Watch 1010
@@ -33,7 +33,7 @@ const FifthSection = () => {
                         </Box>
                     </Box>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <Image src="/sec5-img1.svg" width="100%" height="100%" alt="" layout="responsive" />
                 </Grid>
             </Grid>

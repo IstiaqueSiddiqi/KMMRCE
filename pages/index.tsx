@@ -22,7 +22,7 @@ const Home: NextPage = () => {
       <SixthSection />
       <SeventhSection />
       <EightSection />
-      <NinthSection />
+      {/* <NinthSection /> */}
       <TenthSection />
     </>
   )

@@ -18,13 +18,13 @@ const FirstSection = () => {
     const classes = useStyles();
     return (
         <>
-            <Grid container component="section">
-                <Grid item xs={6} borderRight="1px solid #ACACAC"
+            <Grid container component="section" columnSpacing={{ xs: 1, md: 2 }}>
+                <Grid item xs={12} md={6} borderRight="1px solid #ACACAC"
                     container
                     direction="row"
-                    justifyContent="center"
+                    justifyContent="flex-start"
                     alignItems="flex-end">
-                    <Box display="flex" flexDirection="column" justifyContent="flex-end" alignItems="flex-start" pb={16} px={16}>
+                    <Box display="flex" flexDirection="column" justifyContent="flex-end" alignItems="flex-start" p={6}>
                         <Box component="h1" fontSize="38px" fontWeight={400}>
                             <Fade left>
                                 <>
@@ -37,7 +37,7 @@ const FirstSection = () => {
                         </Button>
                     </Box>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <Box display="flex" flexDirection="column" p={4}>
                         <Image src="/speaker.png" width="580" height="600" alt="speaker" layout="intrinsic" />
                     </Box>

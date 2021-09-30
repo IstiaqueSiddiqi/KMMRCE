@@ -27,7 +27,7 @@ const NinthSection = () => {
     const classes = useStyles();
     return (
         <>
-            <Box component="section" bgcolor="#F5F5F5" color="#333333" p={8}>
+            <Box component="section" bgcolor="#F5F5F5" color="#333333" p={4}>
                 <Box py={2} width="80%">
                     <Box component="p" m={0} fontSize="22px" fontWeight={400} lineHeight="35px">Features & Solutions</Box>
                     <Box component="h3" fontSize="42px" fontWeight={400} lineHeight="45px">
@@ -36,23 +36,23 @@ const NinthSection = () => {
                         </Fade>
                     </Box>
                 </Box>
-                <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                <Table size="small" aria-label="simple table">
                     <TableHead>
                         <TableRow>
-                            <TableCell>Core Features</TableCell>
-                            <TableCell align="center">
+                            <TableCell padding="none">Core Features</TableCell>
+                            <TableCell padding="none" align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Image src="/sec9-img1.svg" width="50" height="50" alt="" layout="intrinsic" />
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
                                 </Box>
                             </TableCell>
-                            <TableCell align="center">
+                            <TableCell padding="none" align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Image src="/sec9-img2.svg" width="50" height="50" alt="" layout="intrinsic" />
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
                                 </Box>
                             </TableCell>
-                            <TableCell align="center">
+                            <TableCell padding="none" align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Image src="/sec9-img3.svg" width="50" height="50" alt="" layout="intrinsic" />
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
@@ -62,35 +62,35 @@ const NinthSection = () => {
                     </TableHead>
                     <TableBody>
                         {rows.map((row, index) => (
-                                <TableRow
-                                    key={`${row.name}${index}`}
-                                    sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                                >
-                                    <TableCell component="th" scope="row">
-                                        {row.name}
-                                    </TableCell>
-                                    <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.standard} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
-                                    <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.professional} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
-                                    <TableCell align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.enterprise} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
-                                </TableRow>
+                            <TableRow
+                                key={`${row.name}${index}`}
+                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                            >
+                                <TableCell padding="none" component="th" scope="row">
+                                    {row.name}
+                                </TableCell>
+                                <TableCell padding="none" align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.standard} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                                <TableCell padding="none" align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.professional} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                                <TableCell padding="none" align="center"><Zoom><Checkbox disableRipple color="secondary" checked={row.enterprise} icon={<RemoveIcon />} checkedIcon={<CheckCircleIcon />} /></Zoom></TableCell>
+                            </TableRow>
                         ))}
                         <TableRow
                             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                         >
                             <TableCell />
-                            <TableCell align="center">
+                            <TableCell padding="none" align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Box component="p" m={0} fontSize="22px" fontWeight={400} lineHeight="35px">$100/month</Box>
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
                                 </Box>
                             </TableCell>
-                            <TableCell align="center">
+                            <TableCell padding="none" align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Box component="p" m={0} fontSize="22px" fontWeight={400} lineHeight="35px">$2000/month</Box>
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
                                 </Box>
                             </TableCell>
-                            <TableCell align="center">
+                            <TableCell padding="none" align="center">
                                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" textAlign="center" p={4}>
                                     <Box component="p" m={0} fontSize="22px" fontWeight={400} lineHeight="35px">$500/month</Box>
                                     <Button variant="outlined" size="small" color="primary" endIcon={<ArrowForwardIosIcon />} disableElevation classes={{ root: classes.buttonRoot }}>Select This Plan</Button>
@@ -99,6 +99,7 @@ const NinthSection = () => {
                         </TableRow>
                     </TableBody>
                 </Table>
+
             </Box>
         </>
     )

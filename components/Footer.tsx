@@ -7,13 +7,13 @@ const Footer = () => {
         <>
             <Box component="footer" bgcolor="#1F1F1F" color="#EEEEEE" pt={10}>
                 <Grid container spacing={2} px={4} pb={12}>
-                    <Grid item xs={2}>
+                    <Grid item xs={6} md={2}>
                         <Image src="/footer.svg" width="34" height="34" alt="kmmrce logo" layout="intrinsic" />
                     </Grid>
-                    <Grid item xs={2}></Grid>
+                    <Grid item xs={6} md={2}></Grid>
                     {
                         footerData.map(eachList => (
-                            <Grid item xs={2} key={`${eachList.listHeader}`}>
+                            <Grid item xs={6} sm={3} md={2} key={`${eachList.listHeader}`}>
                                 <List subheader={<strong>{eachList.listHeader}</strong>}>
                                     {
                                         eachList.listItems.map(item => (

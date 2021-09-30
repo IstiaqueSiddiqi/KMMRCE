@@ -17,7 +17,7 @@ const SecondSection = () => {
     const classes = useStyles();
     return (
         <>
-            <Box id="platform" position="relative" display="flex" justifyContent="center" alignItems="center" component="section" bgcolor="#1F1F1F" height="100vh" px={4} py={12}>
+            <Box id="platform" position="relative" display="flex" justifyContent="center" alignItems="center" component="section" bgcolor="#1F1F1F" height="100%" px={4} py={12}>
                 <Box sx={{
                     position: "absolute",
                     zIndex: 2,

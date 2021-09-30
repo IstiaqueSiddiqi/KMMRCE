@@ -15,7 +15,7 @@ const TenthSection = () => {
     const classes = useStyles();
     return (
         <>
-            <Box component="section" display="flex" flexDirection="column" justifyContent="center" alignItems="center" p={16}>
+            <Box component="section" display="flex" flexDirection="column" justifyContent="center" alignItems="center" p={12}>
                 <Box component="h3" fontSize="40px" fontWeight={400} lineHeight="40px">
                     <Jello>Ready to grow your business?</Jello>
                 </Box>

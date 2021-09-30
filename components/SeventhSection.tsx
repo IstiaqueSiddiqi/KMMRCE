@@ -6,16 +6,16 @@ import Flip from 'react-reveal/Flip';
 const SeventhSection = () => {
     return (
         <>
-            <Grid container component="section" height="100vh">
-                <Grid item xs={6}>
-                    <Box display="flex" justifyContent="center" alignItems="center" height="100%">
+            <Grid container component="section" height="100%" columnSpacing={{ xs: 1, md: 2 }}>
+                <Grid item xs={12} md={6}>
+                    <Box display="flex" justifyContent="center" alignItems="center" px={4}>
                         <Flip right>
                             <Image src="/sec7-img1.svg" width="460" height="500" alt="speaker" />
                         </Flip>
                     </Box>
                 </Grid>
-                <Grid item xs={6}>
-                    <Box display="flex" flexDirection="column" px={2} py={2} width="600px">
+                <Grid item xs={12} md={6}>
+                    <Box display="flex" flexDirection="column" px={4} py={2}>
                         <Box component="h3" fontSize="40px" fontWeight={400} lineHeight="40px">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         </Box>
