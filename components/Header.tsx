@@ -99,8 +99,7 @@ const Header = () => {
                 <Drawer
                     anchor="right"
                     open={mobileOpen}
-                    onClose={() => toggleDrawer(false)}
-                >
+                    onClose={() => toggleDrawer(false)}>
                     {drawerList()}
                 </Drawer>
             </Box>

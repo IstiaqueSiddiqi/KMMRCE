@@ -18,7 +18,8 @@ const FirstSection = () => {
     const classes = useStyles();
     return (
         <>
-            <Grid container component="section" columnSpacing={{ xs: 1, md: 2 }}>
+            <Grid container component="section" columnSpacing={{ xs: 1, md: 2 }} 
+            sx={{ flexDirection: { xs: "column-reverse", md: 'row' } }}>
                 <Grid item xs={12} md={6} borderRight="1px solid #ACACAC"
                     container
                     direction="row"

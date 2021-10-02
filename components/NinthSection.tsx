@@ -27,7 +27,7 @@ const NinthSection = () => {
     const classes = useStyles();
     return (
         <>
-            <Box component="section" bgcolor="#F5F5F5" color="#333333" p={4}>
+            <Box component="section" bgcolor="#F5F5F5" color="#333333" p={4} overflow="auto">
                 <Box py={2} width="80%">
                     <Box component="p" m={0} fontSize="22px" fontWeight={400} lineHeight="35px">Features & Solutions</Box>
                     <Box component="h3" fontSize="42px" fontWeight={400} lineHeight="45px">
